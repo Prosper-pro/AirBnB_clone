@@ -326,7 +326,7 @@ class HBNBCommand(cmd.Cmd):
             if attr in self.attr_types:
                 val = self.attr_types[attr](val)
             new_attr = {attr: val}
-            # update the object attributes dictionary
+            # update the object attributes  dictionary
             obj.__dict__.update(new_attr)
         obj.save()
 
