@@ -4,9 +4,9 @@ This project is the first stage on  building a clone of the AirBnB website. This
 
 ## How to Use
 
-1. After cloning the repository locate the "console.py" file and run it 
+1. After cloning the repository locate the "console.py" file and run it
 ```
-AirBnB_clone$ ./console.py 
+AirBnB_clone$ ./console.py
 ```
 Then a promp will appear like this
 ```
@@ -68,7 +68,7 @@ Usage: <class_name>.all()
 ```
 (hbnb) User.all()
 ["[User] (d59dc247-6307-46b8-9e3e-9c241493838b) {'id': 'd59dc247-6307-46b8-9e3e-9c241493838b', 'created_at': datetime.datetime(2021, 11, 9, 14, 16, 45, 138082), 'updated_at': datetime.datetime(2021, 11, 9, 14, 45, 34, 287408), 'first_name': 'betty'}", "[User] (eceae679-ed06-4f47-90f4-1ffa157b3410) {'id': 'eceae679-ed06-4f47-90f4-1ffa157b3410', 'created_at': datetime.datetime(2021, 11, 9, 14, 17, 24, 456980), 'updated_at': datetime.datetime(2021, 11, 9, 14, 17, 24, 456980)}", "[User] (a80a69d0-4c72-4c0d-8184-a6b24042ff8b) {'id': 'a80a69d0-4c72-4c0d-8184-a6b24042ff8b', 'created_at': datetime.datetime(2021, 11, 9, 14, 17, 39, 881359), 'updated_at': datetime.datetime(2021, 11, 9, 14, 17, 39, 881359)}"]
-(hbnb) 
+(hbnb)
 ```
 
 ##### Destroy a User Instance
